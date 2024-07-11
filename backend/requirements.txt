@@ -1,0 +1,51 @@
+asgiref==3.8.1
+certifi==2024.7.4
+charset-normalizer==3.3.2
+diff-match-patch==20230430
+Django==5.0.7
+django-anymail==11.0
+django-ckeditor==6.7.1
+django-ckeditor-5==0.2.13
+django-cors-headers==4.4.0
+django-dotenv==1.4.2
+django-environ==0.11.2
+django-import-export==4.1.1
+django-jazzmin==3.0.0
+django-js-asset==2.2.0
+djangorestframework==3.15.2
+djangorestframework-simplejwt==5.3.1
+drf-yasg==1.21.7
+humanize==4.10.0
+idna==3.7
+inflection==0.5.1
+packaging==24.1
+pillow==10.4.0
+PyJWT==2.8.0
+pytz==2024.1
+PyYAML==6.0.1
+requests==2.32.3
+shortuuid==1.0.13
+sqlparse==0.5.0
+tablib==3.5.0
+typing_extensions==4.12.2
+tzdata==2024.1
+uritemplate==4.1.1
+urllib3==2.2.2
+# crée un env virtuel
+# installe les dependence necessaire
+
+# pip freeze > requirements.txt => pour cree le fichier 
+# pip install -r requirements.txt => pour lancer les installation
+#django-admin startproject blogapp . => pour créer un projet or python -m django startproject blogapp .
+
+
+# cree les repertoires media template et api
+# create app =>python manage.py startapp api
+# modifier les settings de blogapp
+# python manage.py migrate =>
+# create a super user => python manage.py createsuperuser
+# USERNAME : blogadmin   psw : blogadmin
+
+# 
+
+
