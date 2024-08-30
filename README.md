@@ -30,7 +30,6 @@ Pour exécuter ce projet localement, suivez les étapes ci-dessous :
    ```bash
    cd backend
    pip install -r requirements.txt
-
 3.**Lancez le serveur Django :**
   ```bash
   python manage.py runserver
