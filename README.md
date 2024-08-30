@@ -25,22 +25,22 @@ Ce projet est une application web de blog développée en utilisant React pour l
 
 Pour exécuter ce projet localement, suivez les étapes ci-dessous :
 
-1. **Clonez le dépôt :** `git clone https://github.com/nom-utilisateur/projet-blog.git`
+1. **Clonez le dépôt :** `git https://github.com/felladib/Blog_app_UsingDjangoReact.git`
 2. **Installez les dépendances backend :**
    ```bash
    cd backend
    pip install -r requirements.txt
-```
+
 3.**Lancez le serveur Django :**
-   ```bash
-python manage.py runserver
-```
+  ```bash
+  python manage.py runserver
+  ```
 4.**Installez les dépendances frontend :**
    ```bash
-cd frontend
-npm install
-```
+  cd frontend
+  npm install
+  ```
 5.**Lancez l'application React :**
    ```bash
-npm start
-```
+  npm start
+  ```
