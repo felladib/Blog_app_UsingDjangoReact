@@ -194,7 +194,7 @@ SIMPLE_JWT = {
 
 CORS_ALLOW_ALL_ORIGINS = True 
 
-# AUTH_USER_MODEL = 'api.User'  # ALa configuration AUTH_USER_MODEL = 'api.User' dans settings.py indique à Django d'utiliser le modèle User de l'application api comme modèle utilisateur par défaut.
+AUTH_USER_MODEL = 'api.User'  # ALa configuration AUTH_USER_MODEL = 'api.User' dans settings.py indique à Django d'utiliser le modèle User de l'application api comme modèle utilisateur par défaut.
 
 # Custom Admin Settings
 JAZZMIN_SETTINGS = {
@@ -204,8 +204,8 @@ JAZZMIN_SETTINGS = {
     # "site_icon": "images/favicon.ico",
     # "site_logo": "images/logos/logo.jpg",
     "welcome_sign": "Welcome To BlogDF",
-    "copyright": "Desphixs",
-    # "user_avatar": "profile_picture",
+    "copyright": "BlogDF",
+    "user_avatar": "get_profile_image_url",
   
     "topmenu_links": [
         {"name": "Dashboard", "url": "home", "permissions": ["auth.view_user"]},

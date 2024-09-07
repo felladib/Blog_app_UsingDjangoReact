@@ -31,21 +31,40 @@ typing_extensions==4.12.2
 tzdata==2024.1
 uritemplate==4.1.1
 urllib3==2.2.2
-# crée un env virtuel
+# crée un env virtuel: python -m venv myenv
+                    # source myenv/bin/activate  
+# -------------------------------------------------------------------------- 
+# cmd : C:\S5\S2I\django_react_blog\backend> blog_env\Scripts\activate.bat
+        # (blog_env) C:\S5\S2I\django_react_blog\backend> pip install drf-yasg
+# -------------------------------------------------------------------------- 
+        
 # installe les dependence necessaire
-
 # pip freeze > requirements.txt => pour cree le fichier 
 # pip install -r requirements.txt => pour lancer les installation
+# -------------------------------------------------------------------------- 
+
 #django-admin startproject blogapp . => pour créer un projet or python -m django startproject blogapp .
+# -------------------------------------------------------------------------- 
 
 
 # cree les repertoires media template et api
 # create app =>python manage.py startapp api
-# modifier les settings de blogapp
+# modifier les settings de blogapp (jazmin/simpleJWT/RestApi....)
+# -------------------------------------------------------------------------- 
+
 # python manage.py migrate =>
 # create a super user => python manage.py createsuperuser
-# USERNAME : blogadmin   psw : blogadmin
+# USERNAME : felladb   psw : blogadmin
+# -------------------------------------------------------------------------- 
 
-# 
+# delete database => Remove-Item -Force .\db.sqlite3   
 
 
+# -------------------------------------------------------------------------- 
+
+
+
+
+# Material-UI => aide a ajouter des composant sans avoir les programmées.
+
+# -------------------------------------------------------------------------- 
