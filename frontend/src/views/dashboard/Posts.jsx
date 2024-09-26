@@ -36,7 +36,7 @@ function Posts() {
     const handleSortChange = (e) => {
         const sortValue = e.target.value;
         let sortedPosts = [...posts]; // Assuming filteredPosts contains the initial posts data
-        console.log(sortValue);
+        // console.log(sortValue);
         if (sortValue === "Newest") {
             sortedPosts.sort((a, b) => new Date(b.date) - new Date(a.date));
         } else if (sortValue === "Oldest") {
@@ -125,7 +125,7 @@ function Posts() {
                                                     <tr>
                                                         <td>
                                                             <Link to={`/detail/${p.slug}/`}>
-                                                                <img src={p.image} style={{ width: "100px", height: "100px", objectFit: "cover", borderRadius: "10px" }} alt="" />
+                                                                <img src={p.imagePost} style={{ width: "100px", height: "100px", objectFit: "cover", borderRadius: "10px" }} alt="" />
                                                             </Link>
                                                         </td>
                                                         <td>
