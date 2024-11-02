@@ -1,4 +1,4 @@
 *.py linguist-language=Python
 *.js linguist-language=JavaScript
 *.html linguist-language=HTML
-*.jsx linguist-language=React
+
