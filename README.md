@@ -37,7 +37,8 @@ Pour exécuter ce projet localement, suivez les étapes ci-dessous :
 4.**Installez les dépendances frontend :**
    ```bash
   cd frontend
-  npm install
+  #npm install
+  yarn dev
   ```
 5.**Lancez l'application React :**
    ```bash
